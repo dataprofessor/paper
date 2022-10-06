@@ -69,24 +69,24 @@ Vitae turpis massa sed elementum. Arcu non sodales neque sodales ut etiam. Non p
 
 st.header('Materials and Methods')
 
-st.subheader('Data collection')
+st.subheader('Semper viverra nam libero')
 st.markdown('''
 Ut consequat semper viverra nam libero. Arcu vitae elementum curabitur vitae. Neque convallis a cras semper auctor neque vitae tempus. Tempus quam pellentesque nec nam aliquam. Libero nunc consequat interdum varius sit amet mattis vulputate. Nibh tortor id aliquet lectus. Netus et malesuada fames ac turpis egestas. Euismod in pellentesque massa placerat duis ultricies. Amet volutpat consequat mauris nunc congue nisi. Vulputate eu scelerisque felis imperdiet proin.
 ''')
 
-st.subheader('Data processing')
+st.subheader('Pellentesque massa placerat')
 st.markdown('''
 Quisque egestas diam in arcu cursus euismod quis. A pellentesque sit amet porttitor eget dolor. Euismod in pellentesque massa placerat duis ultricies. In ante metus dictum at tempor commodo ullamcorper a lacus. Sit amet nisl purus in mollis nunc sed id semper. Adipiscing elit pellentesque habitant morbi. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Vestibulum lectus mauris ultrices eros in. Pellentesque elit eget gravida cum sociis natoque. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Id venenatis a condimentum vitae. Nec ultrices dui sapien eget mi proin sed libero enim. Tellus at urna condimentum mattis pellentesque. Non sodales neque sodales ut etiam sit. Ut aliquam purus sit amet. Volutpat diam ut venenatis tellus in metus vulputate.
 ''')
 
-st.subheader('Model building')
+st.subheader('Sed do eiusmod')
 st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu non. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. In nulla posuere sollicitudin aliquam ultrices sagittis. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Placerat in egestas erat imperdiet sed euismod nisi porta. Dictum at tempor commodo ullamcorper. Malesuada pellentesque elit eget gravida cum. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula.
 ''')
 
 st.header('Results and Discussion')
 
-st.subheader('Exploratory data analysis')
+st.subheader('Consectetur adipiscing elit')
 st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu non. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. In nulla posuere sollicitudin aliquam ultrices sagittis. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Placerat in egestas erat imperdiet sed euismod nisi porta. Dictum at tempor commodo ullamcorper. Malesuada pellentesque elit eget gravida cum. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula.
 ''')
@@ -99,7 +99,7 @@ plost.line_chart(
 st.caption('**Figure 1.** Line chart of Seattle weather data.')
 
 
-st.subheader('Benchmarking of machine learning models')
+st.subheader('Arcu non sodales')
 st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Laoreet id donec ultrices tincidunt. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Cursus turpis massa tincidunt dui ut ornare lectus sit. Quis vel eros donec ac odio tempor. Quis auctor elit sed vulputate mi. Feugiat sed lectus vestibulum mattis. Sed vulputate odio ut enim blandit volutpat. Aliquam eleifend mi in nulla. Egestas sed tempus urna et. Nisl vel pretium lectus quam id leo. Quam elementum pulvinar etiam non quam lacus suspendisse. Lectus magna fringilla urna porttitor rhoncus. Vitae tempus quam pellentesque nec nam aliquam sem et. Mauris in aliquam sem fringilla ut morbi tincidunt augue interdum.
 ''')
