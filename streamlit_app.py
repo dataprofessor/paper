@@ -134,14 +134,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ''')
 
 selected_q = st.multiselect('Select Q', ['q1', 'q2', 'q3', 'q4'], ['q1', 'q2', 'q3', 'q4'])
-plost.bar_chart(
-        data=datasets['stocks'],
-        bar='company',
-        value=selected_q,
-        group='value',
-        color='company',
-        legend=None,
-        )
+#plost.bar_chart(
+#        data=datasets['stocks'],
+#        bar='company',
+#        value=selected_q,
+#        group='value',
+#        color='company',
+#        legend=None,
+#        )
+st.bar_chart(datasets['stocks'])
 st.caption('**Figure 2.** Bar chart of stocks data.')
 
 
