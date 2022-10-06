@@ -39,8 +39,8 @@ def get_datasets():
         events=events,
         pageviews=pageviews,
         stocks=stocks,
-        seattle_weather=pd.read_csv('./data/seattle-weather.csv', parse_dates=['date']),
-        sp500=pd.read_csv('./data/sp500.csv', parse_dates=['date']),
+        seattle_weather=pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/seattle-weather.csv', parse_dates=['date']),
+        sp500=pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/sp500.csv', parse_dates=['date']),
     )
 
 datasets = get_datasets()
