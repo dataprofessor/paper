@@ -123,7 +123,8 @@ selected_temp = st.multiselect('Select data', ['temp_max', 'temp_min'], ['temp_m
 plost.line_chart(
      data=datasets['seattle_weather'],
      x='date',
-     y=selected_temp)
+     y=selected_temp,
+     y_annot=None)
 st.caption('**Figure 1.** Line chart of Seattle weather data.')
 
 
