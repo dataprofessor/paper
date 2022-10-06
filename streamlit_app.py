@@ -106,11 +106,11 @@ st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Laoreet id donec ultrices tincidunt. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Cursus turpis massa tincidunt dui ut ornare lectus sit. Quis vel eros donec ac odio tempor. Quis auctor elit sed vulputate mi. Feugiat sed lectus vestibulum mattis. Sed vulputate odio ut enim blandit volutpat. Aliquam eleifend mi in nulla. Egestas sed tempus urna et. Nisl vel pretium lectus quam id leo. Quam elementum pulvinar etiam non quam lacus suspendisse. Lectus magna fringilla urna porttitor rhoncus. Vitae tempus quam pellentesque nec nam aliquam sem et. Mauris in aliquam sem fringilla ut morbi tincidunt augue interdum.
 ''')
 
-
+selected_q = st.multiselect('Select data', ['q1', 'q2', 'q3', 'q4'], ['q1', 'q2', 'q3', 'q4'])
 plost.bar_chart(
         data=datasets['stocks'],
         bar='company',
-        value=['q1', 'q2', 'q3', 'q4'],
+        value=selected_q,
         group='value',
         color='company',
         legend=None,
