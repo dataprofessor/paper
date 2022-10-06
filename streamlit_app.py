@@ -48,7 +48,7 @@ datasets = get_datasets()
 
 
 ######################################################
-st.markdown('`Research article`')
+st.markdown('*Research article*')
 st.title('Writing a research article using Streamlit')
 
 st.header('Abstract')
