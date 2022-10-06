@@ -1,5 +1,51 @@
 import streamlit as st
+import plost
 
+@st.cache
+def get_datasets():
+    N = 50
+    rand = pd.DataFrame()
+    rand['a'] = np.arange(N)
+    rand['b'] = np.random.rand(N)
+    rand['c'] = np.random.rand(N)
+
+    N = 500
+    events = pd.DataFrame()
+    events['time_delta_s'] = np.random.randn(N)
+    events['servers'] = np.random.choice(['server 1', 'server 2', 'server 3'], N)
+
+    N = 500
+    randn = pd.DataFrame(
+        np.random.randn(N, 4),
+        columns=['a', 'b', 'c', 'd'],
+    )
+
+    stocks = pd.DataFrame(dict(
+        company=['goog', 'fb', 'ms', 'amazon'],
+        q2=[4, 6, 8, 2],
+        q3=[2, 5, 2, 6],
+    ))
+
+    N = 200
+    pageviews = pd.DataFrame()
+    pageviews['pagenum'] = [f'page-{i:03d}' for i in range(N)]
+    pageviews['pageviews'] = np.random.randint(0, 1000, N)
+
+    return dict(
+        rand=rand,
+        randn=randn,
+        events=events,
+        pageviews=pageviews,
+        stocks=stocks,
+        seattle_weather=pd.read_csv('./data/seattle-weather.csv', parse_dates=['date']),
+        sp500=pd.read_csv('./data/sp500.csv', parse_dates=['date']),
+    )
+
+datasets = get_datasets()
+
+
+
+######################################################
 st.title('Writing a research article using Streamlit')
 
 st.header('Abstract')
@@ -39,6 +85,14 @@ st.subheader('Exploratory data analysis')
 st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu non. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. In nulla posuere sollicitudin aliquam ultrices sagittis. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Placerat in egestas erat imperdiet sed euismod nisi porta. Dictum at tempor commodo ullamcorper. Malesuada pellentesque elit eget gravida cum. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula.
 ''')
+
+
+with st.echo():
+    plost.line_chart(
+        data=datasets['seattle_weather'],
+        x='date',
+        y=('temp_max', 'temp_min'))
+
 
 st.subheader('Benchmarking of machine learning models')
 st.markdown('''
