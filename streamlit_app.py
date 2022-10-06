@@ -88,7 +88,7 @@ st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu non. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. In nulla posuere sollicitudin aliquam ultrices sagittis. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Eget felis eget nunc lobortis mattis aliquam faucibus purus. Placerat in egestas erat imperdiet sed euismod nisi porta. Dictum at tempor commodo ullamcorper. Malesuada pellentesque elit eget gravida cum. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula.
 ''')
 
-selected_temp = st.selectbox('Select data', ['temp_max', 'temp_min'])
+selected_temp = st.multiselect('Select data', ['temp_max', 'temp_min'])
 plost.line_chart(
      data=datasets['seattle_weather'],
      x='date',
