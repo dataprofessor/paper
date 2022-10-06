@@ -85,7 +85,7 @@ st.markdown('''
 Ut consequat semper viverra nam libero. Arcu vitae elementum curabitur vitae. Neque convallis a cras semper auctor neque vitae tempus. Tempus quam pellentesque nec nam aliquam. Libero nunc consequat interdum varius sit amet mattis vulputate. Nibh tortor id aliquet lectus. Netus et malesuada fames ac turpis egestas. Euismod in pellentesque massa placerat duis ultricies. Amet volutpat consequat mauris nunc congue nisi. Vulputate eu scelerisque felis imperdiet proin.
 ''')
 
-AgGrid(datasets['seattle_weather'])
+AgGrid(datasets['seattle_weather'], height=400)
 
 st.subheader('Pellentesque massa placerat')
 st.markdown('''
