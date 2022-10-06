@@ -90,7 +90,7 @@ AgGrid(datasets['seattle_weather'], height=300)
 
 
 st.caption('**Table 2.** Stocks data.')
-AgGrid(datasets['stocks'], height=300)
+AgGrid(datasets['stocks'])
 
 
 
