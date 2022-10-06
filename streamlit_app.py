@@ -110,7 +110,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 plost.bar_chart(
         data=datasets['stocks'],
         bar='company',
-        value=['q2', 'q3'],
+        value=['q1', 'q2', 'q3', 'q4'],
         group='value',
         color='company',
         legend=None,
