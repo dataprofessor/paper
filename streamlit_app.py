@@ -120,7 +120,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ''')
 
 selected_temp = st.multiselect('Select data', ['temp_max', 'temp_min'], ['temp_max', 'temp_min'])
-plost.line_chart(
+st.line_chart(
      data=datasets['seattle_weather'],
      x='date',
      y=selected_temp,
