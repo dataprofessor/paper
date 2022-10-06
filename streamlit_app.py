@@ -124,6 +124,7 @@ st.markdown('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum at varius vel pharetra vel turpis nunc. Nunc id cursus metus aliquam eleifend mi in nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Donec et odio pellentesque diam. Eu consequat ac felis donec. Nulla facilisi etiam dignissim diam quis. Vestibulum mattis ullamcorper velit sed ullamcorper. Ipsum suspendisse ultrices gravida dictum fusce. Facilisis sed odio morbi quis commodo odio aenean sed. Enim neque volutpat ac tincidunt.
 ''')
 
+st.header('Acknowledgements')
 st.warning('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi nullam vehicula ipsum a. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Nunc sed velit dignissim sodales ut eu sem integer vitae. Vel facilisis volutpat est velit. Auctor eu augue ut lectus arcu. Habitant morbi tristique senectus et netus. Quisque sagittis purus sit amet volutpat consequat mauris nunc. Libero justo laoreet sit amet cursus sit. Sed faucibus turpis in eu. Ac orci phasellus egestas tellus rutrum. Malesuada proin libero nunc consequat. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Facilisi morbi tempus iaculis urna id volutpat. Mi bibendum neque egestas congue quisque egestas diam in. Nunc lobortis mattis aliquam faucibus.
 ''')
