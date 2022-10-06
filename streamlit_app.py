@@ -157,21 +157,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 st.header('Reference')
 st.markdown('''
-- 1. Li H, Tamang T, Nantasenamat C. Toward insights on antimicrobial selectivity
-of host defense peptides via machine learning model interpretation. Genomics.
-2021;113(6):3851-3863.
+1. Li H, Tamang T, Nantasenamat C. Toward insights on antimicrobial selectivity of host defense peptides via machine learning model interpretation. Genomics. 2021;113(6):3851-3863.
 
-- 2. Schaduangrat N, Malik AA, Nantasenamat C. ERpred: a web server for the
-prediction of subtype-specific estrogen receptor antagonists. PeerJ. 2021;9:e11716.
+2. Schaduangrat N, Malik AA, Nantasenamat C. ERpred: a web server for the prediction of subtype-specific estrogen receptor antagonists. PeerJ. 2021;9:e11716.
 
-3. Schaduangrat N, Lampa S, Simeon S, Gleeson MP, Spjuth O, Nantasenamat C.
-Towards reproducible computational drug discovery. J Cheminform. 2020;12(1):9. 
+3. Schaduangrat N, Lampa S, Simeon S, Gleeson MP, Spjuth O, Nantasenamat C. Towards reproducible computational drug discovery. J Cheminform. 2020;12(1):9. 
 
-4. Li H, Nantasenamat C. Toward insights on determining factors for high
-activity in antimicrobial peptides via machine learning. PeerJ. 2019;7:e8265.
+4. Li H, Nantasenamat C. Toward insights on determining factors for high activity in antimicrobial peptides via machine learning. PeerJ. 2019;7:e8265.
 
-5. Suvannang N, Preeyanon L, Malik AA, Schaduangrat N, Shoombuatong W,
-Worachartcheewan A, Tantimongcolwat T, Nantasenamat C. Probing the origin of
-estrogen receptor alpha inhibition via large-scale QSAR study. RSC Adv.
-2018;8(21):11344-11356.
+5. Suvannang N, Preeyanon L, Malik AA, Schaduangrat N, Shoombuatong W, Worachartcheewan A, Tantimongcolwat T, Nantasenamat C. Probing the origin of estrogen receptor alpha inhibition via large-scale QSAR study. RSC Adv. 2018;8(21):11344-11356.
 ''')
