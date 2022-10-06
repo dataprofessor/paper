@@ -24,8 +24,10 @@ def get_datasets():
 
     stocks = pd.DataFrame(dict(
         company=['goog', 'fb', 'ms', 'amazon'],
+        q1=[3, 5, 4, 6],
         q2=[4, 6, 8, 2],
         q3=[2, 5, 2, 6],
+        q4=[4, 5, 6, 7],
     ))
 
     N = 200
