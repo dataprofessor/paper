@@ -55,7 +55,7 @@ st.markdown('*Research article*')
 st.title('Writing a research article using Streamlit')
 
 st.markdown('''
-Chanin Nantasenamat
+**Chanin Nantasenamat**
 
 *Data Professor, YouTube channel, https://youtube.com/dataprofessor*
 
