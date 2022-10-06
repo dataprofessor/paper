@@ -89,7 +89,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ''')
 
 
-with st.echo():
+with st.write():
     plost.line_chart(
         data=datasets['seattle_weather'],
         x='date',
