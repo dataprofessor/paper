@@ -93,7 +93,7 @@ plost.line_chart(
      data=datasets['seattle_weather'],
      x='date',
      y=('temp_max', 'temp_min'))
-
+st.caption('Line chart of Seattle weather data.')
 
 st.subheader('Benchmarking of machine learning models')
 st.markdown('''
