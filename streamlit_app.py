@@ -157,11 +157,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 st.header('Reference')
 st.markdown('''
-1. Li H, Tamang T, Nantasenamat C. Toward insights on antimicrobial selectivity
+- 1. Li H, Tamang T, Nantasenamat C. Toward insights on antimicrobial selectivity
 of host defense peptides via machine learning model interpretation. Genomics.
 2021;113(6):3851-3863.
 
-2. Schaduangrat N, Malik AA, Nantasenamat C. ERpred: a web server for the
+- 2. Schaduangrat N, Malik AA, Nantasenamat C. ERpred: a web server for the
 prediction of subtype-specific estrogen receptor antagonists. PeerJ. 2021;9:e11716.
 
 3. Schaduangrat N, Lampa S, Simeon S, Gleeson MP, Spjuth O, Nantasenamat C.
