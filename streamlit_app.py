@@ -5,7 +5,7 @@ from st_aggrid import AgGrid
 import plost
 
 # Modified from Plost
-@st.experimental_memo
+@st.experimental_singleton()
 def get_datasets():
     N = 50
     rand = pd.DataFrame()
