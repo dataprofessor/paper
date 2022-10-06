@@ -8,6 +8,7 @@ st.info('''
 ''')
 
 st.markdown('''
+# **Introduction**
 
 With the ever-growing importance of data, bioinformatics has become increasingly important. Bioinformatics is the field of science that deals with the acquisition, management, and analysis of biological data. In order to make sense of the vast amount of data that is generated every day, bioinformaticians rely on computers and software to help them Organize, store, and analyze this data.
 
