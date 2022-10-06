@@ -155,7 +155,7 @@ st.warning('''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi nullam vehicula ipsum a. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Nunc sed velit dignissim sodales ut eu sem integer vitae. Vel facilisis volutpat est velit. Auctor eu augue ut lectus arcu. Habitant morbi tristique senectus et netus. Quisque sagittis purus sit amet volutpat consequat mauris nunc. Libero justo laoreet sit amet cursus sit. Sed faucibus turpis in eu. Ac orci phasellus egestas tellus rutrum. Malesuada proin libero nunc consequat. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Facilisi morbi tempus iaculis urna id volutpat. Mi bibendum neque egestas congue quisque egestas diam in. Nunc lobortis mattis aliquam faucibus.
 ''')
 
-st.header('Reference')
+st.header('References')
 st.markdown('''
 1. Li H, Tamang T, Nantasenamat C. Toward insights on antimicrobial selectivity of host defense peptides via machine learning model interpretation. Genomics. 2021;113(6):3851-3863.
 
