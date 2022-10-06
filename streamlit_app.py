@@ -84,6 +84,14 @@ st.markdown('''
 Ut consequat semper viverra nam libero. Arcu vitae elementum curabitur vitae. Neque convallis a cras semper auctor neque vitae tempus. Tempus quam pellentesque nec nam aliquam. Libero nunc consequat interdum varius sit amet mattis vulputate. Nibh tortor id aliquet lectus. Netus et malesuada fames ac turpis egestas. Euismod in pellentesque massa placerat duis ultricies. Amet volutpat consequat mauris nunc congue nisi. Vulputate eu scelerisque felis imperdiet proin.
 ''')
 
+
+st.latex(r'''
+    a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+    \sum_{k=0}^{n-1} ar^k =
+    a \left(\frac{1-r^{n}}{1-r}\right)
+    ''')
+
+
 st.subheader('Pellentesque massa placerat')
 st.markdown('''
 Quisque egestas diam in arcu cursus euismod quis. A pellentesque sit amet porttitor eget dolor. Euismod in pellentesque massa placerat duis ultricies. In ante metus dictum at tempor commodo ullamcorper a lacus. Sit amet nisl purus in mollis nunc sed id semper. Adipiscing elit pellentesque habitant morbi. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Vestibulum lectus mauris ultrices eros in. Pellentesque elit eget gravida cum sociis natoque. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Id venenatis a condimentum vitae. Nec ultrices dui sapien eget mi proin sed libero enim. Tellus at urna condimentum mattis pellentesque. Non sodales neque sodales ut etiam sit. Ut aliquam purus sit amet. Volutpat diam ut venenatis tellus in metus vulputate.
