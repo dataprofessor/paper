@@ -111,10 +111,10 @@ selected_q = st.multiselect('Select Q', ['q1', 'q2', 'q3', 'q4'], ['q1', 'q2', '
 selected_company = st.multiselect('Select company', ['goog', 'fb', 'ms', 'amazon'], ['goog', 'fb', 'ms', 'amazon'])
 plost.bar_chart(
         data=datasets['stocks'],
-        bar='company',
+        bar=selected_company,
         value=selected_q,
         group='value',
-        color=selected_company,
+        color='company',
         legend=None,
     )
 st.caption('**Figure 2.** Bar chart of stocks data.')
