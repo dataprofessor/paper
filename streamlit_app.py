@@ -124,7 +124,7 @@ plost.line_chart(
      data=datasets['seattle_weather'],
      x='date',
      y=selected_temp,
-     y_annot=None)
+     )
 st.caption('**Figure 1.** Line chart of Seattle weather data.')
 
 
@@ -141,7 +141,7 @@ plost.bar_chart(
         group='value',
         color='company',
         legend=None,
-    )
+        )
 st.caption('**Figure 2.** Bar chart of stocks data.')
 
 
