@@ -108,7 +108,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ''')
 
 selected_q = st.multiselect('Select Q', ['q1', 'q2', 'q3', 'q4'], ['q1', 'q2', 'q3', 'q4'])
-selected_company = mt.multiselect('Select company', ['goog', 'fb', 'ms', 'amazon'], ['goog', 'fb', 'ms', 'amazon'])
+selected_company = st.multiselect('Select company', ['goog', 'fb', 'ms', 'amazon'], ['goog', 'fb', 'ms', 'amazon'])
 plost.bar_chart(
         data=datasets['stocks'],
         bar='company',
