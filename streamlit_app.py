@@ -4,56 +4,19 @@ import pandas as pd
 from st_aggrid import AgGrid
 import plost
 
-# Modified from Plost
-@st.experimental_memo
-def get_datasets():
-    N = 50
-    rand = pd.DataFrame()
-    rand['a'] = np.arange(N)
-    rand['b'] = np.random.rand(N)
-    rand['c'] = np.random.rand(N)
-
-    N = 500
-    events = pd.DataFrame()
-    events['time_delta_s'] = np.random.randn(N)
-    events['servers'] = np.random.choice(['server 1', 'server 2', 'server 3'], N)
-
-    N = 500
-    randn = pd.DataFrame(
-        np.random.randn(N, 4),
-        columns=['a', 'b', 'c', 'd'],
-    )
-
-    stocks = pd.DataFrame(dict(
+# Data from Plost
+stocks = pd.DataFrame(dict(
         company=['goog', 'fb', 'ms', 'amazon'],
         q1=[3, 5, 4, 6],
         q2=[4, 6, 8, 2],
         q3=[2, 5, 2, 6],
         q4=[4, 5, 6, 7],
     ))
-
-    N = 200
-    pageviews = pd.DataFrame()
-    pageviews['pagenum'] = [f'page-{i:03d}' for i in range(N)]
-    pageviews['pageviews'] = np.random.randint(0, 1000, N)
-
-    return dict(
-        rand=rand,
-        randn=randn,
-        events=events,
-        pageviews=pageviews,
-        stocks=stocks,
-        seattle_weather=pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/seattle-weather.csv', parse_dates=['date']),
-        sp500=pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/sp500.csv', parse_dates=['date']),
-    )
-
-datasets = get_datasets()
-
-
+sp500=pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/sp500.csv', parse_dates=['date'])
 
 ######################################################
 st.markdown('*Research article*')
-st.title('Writing a research article using Streamlit')
+st.title('Writing an interactive research article using Streamlit')
 
 st.markdown('''
 **Chanin Nantasenamat**
@@ -86,11 +49,11 @@ Ut consequat semper viverra nam libero. Arcu vitae elementum curabitur vitae [2]
 ''')
 
 st.caption('**Table 1.** Seattle weather data.')
-AgGrid(datasets['seattle_weather'], height=300)
+AgGrid(seattle_weather, height=300)
 
 
 st.caption('**Table 2.** Stocks data.')
-AgGrid(datasets['stocks'])
+AgGrid(stocks)
 
 
 
@@ -121,7 +84,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 selected_temp = st.multiselect('Select data', ['temp_max', 'temp_min'], ['temp_max', 'temp_min'])
 st.line_chart(
-     data=datasets['seattle_weather'],
+     data=seattle_weather,
      x='date',
      y=selected_temp,
      )
@@ -135,7 +98,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 selected_q = st.multiselect('Select Q', ['q1', 'q2', 'q3', 'q4'], ['q1', 'q2', 'q3', 'q4'])
 plost.bar_chart(
-        data=datasets['stocks'],
+        data=stocks,
         bar='company',
         value=selected_q,
         group='value',
