@@ -12,7 +12,7 @@ stocks = pd.DataFrame(dict(
         q3=[2, 5, 2, 6],
         q4=[4, 5, 6, 7],
     ))
-sp500=pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/sp500.csv', parse_dates=['date'])
+seattle_weather = pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/seattle-weather.csv', parse_dates=['date'])
 
 ######################################################
 st.markdown('*Research article*')
